@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-expand-lg{
+    background-color: #1abc9c;
+}
+.navbar p{
+    font-size: 25px;
+}
+.card-body{
+    width: 100%;
+}
+.small{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.card{
+    display: inline-block;
+}
+.container2{
+    padding-top: 27px;
+    width: 85%;
+    margin: auto;
+}
+.card{
+    margin: 20px;
+    border: 2px solid #3498db;
+    overflow: auto;
+    border-radius: 9px;
+    height: 14rem;
+}
+.fa{
+    /* cursor: pointer; */
+    color: #e74c3c;
+    position: relative;
+    font-size: 21px;
+    left: 6px;
+    top: 3px;
+
+    /* z-index: 2; */
+}
+#Icon{
+    right: 32px;
+    position: absolute;
+    top: 17px;
+    height: 30px;
+    border-radius: 14px;
+    width: 31px;
+    background: aqua;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#Icon:hover{
+    background-color: #f1c40f;
+}
+
