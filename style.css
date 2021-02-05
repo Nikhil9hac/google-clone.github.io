@@ -26,34 +26,60 @@
     margin: auto;
 }
 .card{
-    margin: 20px;
-    border: 2px solid #3498db;
+    display: inline-block;
+    border: 2px solid black;
+    height: 238px;
     overflow: auto;
-    border-radius: 9px;
-    height: 14rem;
+    border-radius: 2%;
+    margin: 37px;
 }
-.fa{
-    /* cursor: pointer; */
-    color: #e74c3c;
-    position: relative;
-    font-size: 21px;
-    left: 6px;
-    top: 3px;
-
-    /* z-index: 2; */
+#name{  
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 28px;
 }
-#Icon{
-    right: 32px;
+.secondarybtn{
+    position: sticky;
+}
+.card-title{
+    width: 70%;
+    display: inline-block;
+}
+#icon{
+    display: inline-block;
     position: absolute;
-    top: 17px;
-    height: 30px;
-    border-radius: 14px;
-    width: 31px;
-    background: aqua;
+    right: 8%;
+    font-size: 20px;
+    background-color: transparent;
     cursor: pointer;
-    transition: 0.2s;
+    z-index: 1;
 }
-#Icon:hover{
-    background-color: #f1c40f;
+.fa-pencil{
+    margin-right: 17px;
+    color: #f1c40f;
+}
+.fa-trash{
+    color: #e74c3c;
+}
+.fa::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    width: 55%;
+    height: 29px;
+    z-index: -1;
+    top: 13%;
+    /* left: -10%; */
+    border-radius: 46%;
+    opacity: 0.5;
+}
+.fa-pencil::after{
+    left: -10%;
+}
+.fa-trash::after{
+    left: 59%;
+    width: 57%;
+    height: 5vh;
+    top: 7%;
 }
 
